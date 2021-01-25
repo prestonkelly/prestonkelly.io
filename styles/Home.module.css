@@ -1,0 +1,56 @@
+
+#mainContent {
+    height: 100vh;
+    /*padding-top: 86px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72px;
+    /*background: -webkit-linear-gradient(180deg, #0037ff 0%, #9900ff 100%);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    color: black;
+    font-family: 'Kanit', sans-serif !important;
+}
+
+#scrollDownButton {
+    position: absolute;
+    bottom: 25px;
+}
+
+#skillsetDiv {
+    background-color: white;
+    padding: 200px 0 200px 0;
+}
+
+#skillsetHeader {
+    text-align: center;
+    color: black;
+    padding-bottom: 25px;
+}
+
+#centerIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 975px) {
+    /*#mainContent {*/
+    /*    background: linear-gradient(180deg, #ff008c 0%, rgb(211, 9, 225) 100%);*/
+    /*    margin-top: 56px;*/
+    /*}*/
+}
+
+@media only screen and (max-width: 975px) {
+    /*#mainContent {*/
+    /*    background: linear-gradient(180deg, #42f566 0%, #d4f542 100%);*/
+    /*    margin-top: 56px;*/
+    /*}*/
+    #scrollDownButton {
+        display: none;
+    }
+}
+
+

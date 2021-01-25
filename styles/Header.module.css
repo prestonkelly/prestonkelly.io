@@ -1,0 +1,33 @@
+
+#mainNav {
+    font-size: 1.25rem;
+    background-color: white;
+    transition: 0.5s ease;
+}
+
+#mainNavItems {
+    color: black;
+    transition: 0.5s;
+}
+
+@media only screen and (min-width: 975px) {
+    #mainNavItems {
+        padding: 7px 20px 7px 20px;
+    }
+    #headerHeight {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #mainNavItems:hover {
+        color: white;
+
+        background-color: black;
+        opacity: 0.9;
+        border-radius: 2px;
+        -moz-box-shadow: 0 0 3px #ccc;
+        -webkit-box-shadow: 0 0 3px #ccc;
+        box-shadow: 0 0 3px #ccc;
+    }
+}
+
+

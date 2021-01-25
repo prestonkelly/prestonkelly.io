@@ -1,0 +1,23 @@
+
+
+
+#mainContent {
+    min-height: 100vh;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailContainer {
+    max-width: 560px;
+}
+
+#centerItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
