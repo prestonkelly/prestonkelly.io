@@ -13,7 +13,7 @@ function Footer() {
                 <Container>
                     <h3 id={style.footerHeader}>Connect with me</h3>
                     <Row className="d-flex justify-content-center">
-                        <a href="https://www.linkedin.com/in/preston-kelly-b26a31187/" target="_blank">
+                        <a href="https://www.linkedin.com/in/prestonkelly1/" target="_blank">
                             <img style={{ filter: "invert(100%)" }} src="socialMedia/linkedin.png" alt="LinkedIn Icon" width="48" height="48" />
                         </a>
                         <a href="https://github.com/prestonkelly" target="_blank">
