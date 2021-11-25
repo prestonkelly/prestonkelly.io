@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 
+.env
+
 # testing
 /coverage
 
@@ -38,8 +40,6 @@ logs
 
 .node_repl_history
 .next
-
-dleete-later
 
 deployment.yaml
 
